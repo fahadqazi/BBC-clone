@@ -5,7 +5,7 @@
 	<style type="text/css">
 	.redbox{
 		background-color: red;
-		border: 5px black solid;
+		
 	}
 	.greenbox{
 		background-color: green;
@@ -20,7 +20,8 @@
 		height:200px;
 		width: 200px;
 		display: inline-block;
-		margin: 10px;
+		text-align: justify;
+		
 	}
 	.clear{
 		clear:both;
@@ -29,7 +30,7 @@
 		font-weight: bold;
 	}
 	.italics{
-		font-style: italic;
+		font-style: oblique;
 		font-size: 200%;
 	}
 	.underline{
@@ -38,20 +39,30 @@
 	.green{
 		color: green;
 	}
+	p{
+		/*text-align: right;*/
+	}
+	a:visited{
+		color:none;
+	}
+	a:hover{
+		font-size: 200%;
+		color: #eee9e9;
+	}
 	</style>
 </head>
 <body>
 	<div class="redbox">
-		<!-- <p>hello</p> -->
+		<p> This is some normal textThis is some normal textThis is some normal textThis is some normal textThis is some normal textThis is some normal textThis is some normal text</p>
 	</div>
-	<div class="greenbox">
-		<!-- <p>hello</p> -->
+	<!-- <div class="greenbox">
+		<p>hello</p>
 	</div>
 	<div class="bluebox">
-		<!-- <p>hello</p> -->
+		<p>hello</p>
 	</div>
 	
-	<div class="clear"></div>
+	<div class="clear"></div>  -->
 
 	
 	<p>This is some normal text</p>
@@ -61,6 +72,8 @@
 	<p class="italics">Now we have some italics going on and its 200% the normal font.</p>
 
 	<p class="underline">This text has an underline.</p>
+
+	<a href="http://www.google.com">Google</a>
 </body>
 </html>
 
