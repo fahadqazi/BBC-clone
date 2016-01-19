@@ -19,7 +19,7 @@
 			margin: 0 auto;
 		}
 		.fixedwidth p{
-			border-right: 1px solid #990008;
+			/*border-right: 1px solid #990008;*/
 		}
 		#logodiv{
 			padding-top: 4px;
@@ -154,11 +154,24 @@
 			text-decoration: underline;
 		}
 
-		.content{
+		#content{
+			width: 100%;
+			color: #535353;	
+			
+			font-size: 0.9em;
 			
 		}
+		.date {
+			font-weight: bold;
+
+		}
+		.fixedwidth h1{
+			background-color: blue;
+		}
+
 	</style>
 </head>
+
 <body>
 	<div id="container">
 		
@@ -233,18 +246,23 @@
 
 		</div>
 
-		<div class="content">
+		<div class="clear"></div>
+
+		<div id="content">
 			<div class="fixedwidth">
-				
+				<br>
+      			<p><span class="date">2 April 2014 </span> Last updated at 15:23 </p>
 			</div>
+			<div class="fixedwidth">
+				<h1> Pollution to spread across England </h1>
+			</div>
+
 		</div>
 
 
 	</div>
 </body>
 </html>
-
-
 
 
 
