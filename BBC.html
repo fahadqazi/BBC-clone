@@ -71,7 +71,7 @@
 			border-right: 1px solid #9E0008;
 		}
 		#topmenudiv li:hover{
-			border-bottom: 2px solid white;
+			border-bottom: 2px solid black;
 		}
 		#searchdiv{
 			/*border: 1px solid yellow;*/
@@ -176,26 +176,106 @@
 		.newsitem{
 			position: relative;
 			left: 2px;
-			width: 280px;
+			width: 300px;
 			top: -14px;
 			font-weight: normal;
 			float: left;
 			font-size: 1.1em;
 			text-align: justify;
+			padding-top: 10px;
 		}
 		.newsitem a{
 			color: #1F4F82;
 			text-decoration: none;
-			line-height: 0px;
-			background-color: orange;
 		}
 		.newsitem a:hover{
 			text-decoration: underline;
 		}
-		.play{
-			padding: 0;
-			margin: 0;
+		.play {
+			background-image: url('images/play.png');
+			background-repeat: no-repeat;
+			background-position: left center;
+			background-size: 9%;
+			padding-left: 25px;
+			padding-top: 0px;
+			padding-bottom: 0px;
 		}
+		.newsitem p{
+			padding-top: 10px;
+			padding-bottom: 0px;
+			padding-right: 20px;
+		}
+		
+		.sound{
+			background-image: url('images/sound.png');
+			background-repeat: no-repeat;
+			background-position: left center;
+			background-size: 11%;
+			padding-left: 25px;
+		}
+		#watchlisten{
+			background-color: #EEEEEE;
+			float: right;
+			width: 360px;
+			height: 300px;
+			position: relative;
+			top: -70px;
+		}
+		#watchlisten h2{
+			color: #505050;
+			margin: 10px 0 10px 10px;
+			font-size: 2em;
+			float: left;
+		}
+		.boxes{
+			float: right;
+			width: 50px;
+			padding-top: 20px;
+			padding-right: 15px;
+		}
+		.left{
+			width: 150px;
+			float: left;
+			border-right: 1px solid white;
+		}
+		.middle{
+			width: 150px;
+			float: left;
+			border-right: 1px solid white;
+		}
+		.right{
+			width: 58px;
+			height: 85px;
+		}
+		.textleft{
+			margin-top: 0px;
+			float: left;
+			width: 145px;
+			color: white;
+			background-color: #D1700E;
+			height: 50px;
+			position: relative;
+			top:-3px;
+			text-align: left center;
+			padding-top: 5px;
+			padding-left: 5px;
+			border-right: 1px solid white;
+		}
+		.textmiddle{
+			margin-top: 0px;
+			float: left;
+			width: 145px;
+			color: white;
+			background-color: #D1700E;
+			height: 50px;
+			position: relative;
+			top:-3px;
+			text-align: left center;
+			padding-top: 5px;
+			padding-left: 5px;
+			border-right: 1px solid white;
+		}
+		
 
 	</style>
 </head>
@@ -288,15 +368,37 @@
 				<div class="newsitem">
 					<p>Health warnings have been issued by the government as pollution spreading across England is forecast to hit high levels.</p> 
 				
-					<p><a href="#">Why are pollution levels so high?</p>
+					<p><a class="play" href="#">Why are pollution levels so high?</a></p><br />
 				
-					<p><a href="#">Watch Saharan dust visible on cars</p>
+					<p><a class="play" href="#">Watch Saharan dust visible on cars</a></p><br />
 				
-					<p><a href="#">Watch How Saharan dust reached the UK What will pollution do to us? </p>
+					<p><a class="sound" href="#">How Saharan Dust reached UK </a></p><br />
 				
-					<p><a href="#">Air pollution a 'serious issue'</p>
+					<p><a class="sound" href="#">Air pollution a 'serious issue'</a></p><br />
 				</div>
 				
+				<div id="watchlisten">
+					<!-- <img class"boxes" src="images/watchlisten.png"> -->
+					<h2>Watch/Listen</h2>
+					<img class="boxes" src="images/watchlisten.png">
+					<div class="clear"></div>
+
+					
+					<img class="left" src="images/middle.png">
+					
+					
+					<img class="middle" src="images/left.png">
+					
+					
+					<img class="right" src="images/right.png">
+
+					<div class="clear"></div>
+
+					<div class="textleft">Titanic Letter could fetch £100,000</div>
+					<div class="textmiddle">The housing estate deliverying its own mail</div>
+					<div class="textright">Hilsb</div>
+					
+				</div>
 			</div>
 
 		</div>
