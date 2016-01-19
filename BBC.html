@@ -217,7 +217,7 @@
 			background-color: #EEEEEE;
 			float: right;
 			width: 360px;
-			height: 300px;
+			height: 350px;
 			position: relative;
 			top: -70px;
 		}
@@ -275,8 +275,48 @@
 			padding-left: 5px;
 			border-right: 1px solid white;
 		}
-		
+		.textright{
+			width: 58px;
+			height: 54px;
+			background-color: #D1700E;
+			float: left;
+			position: relative;
+			color: white;
+			top: -3px;
+			text-align: left center;
+			/*padding-top: 5px;*/
+			padding: 0;
+			margin: 0;
+		}
 
+		#live{
+			float: left;
+			width: 180px;
+			padding-top: 15px;
+			padding-left: 5px;
+		}
+		#watchlisten a{
+			text-decoration: none;
+			color: white;
+		}
+		#watchlisten a:hover{
+			text-decoration: underline;
+		}
+		#watchlisten li{
+			list-style: none;
+			background-image: url('images/live.png');
+			background-repeat: no-repeat;
+			background-position: left center;
+			background-size: 10%;
+			padding: 10px 10px 5px 43px;
+			}
+		#watchlisten ul{
+			padding-left: 9px;
+			padding-right: 10px;
+		}
+		.bb{
+			border-bottom: 2px solid #DDDDDD;
+		}
 	</style>
 </head>
 
@@ -394,10 +434,25 @@
 
 					<div class="clear"></div>
 
-					<div class="textleft">Titanic Letter could fetch £100,000</div>
-					<div class="textmiddle">The housing estate deliverying its own mail</div>
-					<div class="textright">Hilsb</div>
+					<div class="textleft"><a href="#">Titanic Letter could fetch £100,000</a></div>
+					<div class="textmiddle"><a href="#">The housing estate deliverying its own mail</a></div>
+					<div class="textright"><a href="#">Hilsb</a></div>
 					
+					<div class="clear"></div>
+
+					<img id="live" src="images/bbclive.png">
+
+					<div class="clear"></div>
+
+					<ul>
+						<li class="bb">BBC Sports Live</li>
+						
+						<li class="bb">BBC Radio Live</li>
+						
+						<li>Osborne Questioned</li>
+						
+					</ul>
+
 				</div>
 			</div>
 
