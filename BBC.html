@@ -12,7 +12,7 @@
 		}
 		body{
 			margin: 0;
-			font-family: arial,verdana, helvetica, arial, sans-serif;
+			font-family: arial, helvetica, arial, sans-serif;
 		}
 		.fixedwidth{
 			width: 1050px;
@@ -165,8 +165,36 @@
 			font-weight: bold;
 
 		}
-		.fixedwidth h1{
-			background-color: blue;
+		h1{
+			color:#1F4F82;
+			font-size: 2.5em;
+		}
+		.headlineimage{
+			float: left;
+
+		}
+		.newsitem{
+			position: relative;
+			left: 2px;
+			width: 280px;
+			top: -14px;
+			font-weight: normal;
+			float: left;
+			font-size: 1.1em;
+			text-align: justify;
+		}
+		.newsitem a{
+			color: #1F4F82;
+			text-decoration: none;
+			line-height: 0px;
+			background-color: orange;
+		}
+		.newsitem a:hover{
+			text-decoration: underline;
+		}
+		.play{
+			padding: 0;
+			margin: 0;
 		}
 
 	</style>
@@ -252,9 +280,23 @@
 			<div class="fixedwidth">
 				<br>
       			<p><span class="date">2 April 2014 </span> Last updated at 15:23 </p>
-			</div>
-			<div class="fixedwidth">
+				<div class="clear"></div>
+			
 				<h1> Pollution to spread across England </h1>
+				<img class="headlineimage" src="images/main.jpg"/>
+				
+				<div class="newsitem">
+					<p>Health warnings have been issued by the government as pollution spreading across England is forecast to hit high levels.</p> 
+				
+					<p><a href="#">Why are pollution levels so high?</p>
+				
+					<p><a href="#">Watch Saharan dust visible on cars</p>
+				
+					<p><a href="#">Watch How Saharan dust reached the UK What will pollution do to us? </p>
+				
+					<p><a href="#">Air pollution a 'serious issue'</p>
+				</div>
+				
 			</div>
 
 		</div>
@@ -265,7 +307,7 @@
 </html>
 
 
-
+ 
 
 
 
